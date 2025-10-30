@@ -1,0 +1,37 @@
+. TÍTULO:
+Orçamento de Aluguel
+2. DESAFIO:
+Desafio: Gerar um orçamento de aluguel mensal
+Uma aplicação de imobiliária é um sistema digital desenvolvido para facilitar a gestão e a
+negociação de imóveis. Ela permite que os administradores da imobiliária cadastrem
+propriedades disponíveis para venda ou aluguel, incluindo informações como localização,
+preço, características do imóvel (como número de quartos, banheiros e metragem), fotos
+e status da negociação. Além disso, o sistema pode oferecer funcionalidades como
+controle de contratos, agendamento de visitas e gerenciamento de clientes e corretores.
+Objetivo:
+A empresa R.M solicita o desenvolvimento de uma aplicação para atender às necessidades
+operacionais e comerciais de sua Imobiliária, especializada na locação de casas,
+apartamentos e estúdios. O objetivo é automatizar e facilitar a geração de orçamentos de
+imóveis para os clientes.
+Funcionalidades Requeridas
+A aplicação deverá incluir, no mínimo, os seguintes módulos e funcionalidades:
+1) Gerando Orçamento
+a) A R.M trabalha com 3 tipos de locação e valores padrões:
+i) Apartamentos R$ 700,00 / 1 Quarto
+ii) Casas R$ 900,00 / 1 Quarto
+iii) Estudio R$ 1200,00
+b) Valor do contrato imobiliário é de R$ 2.000,00 divididos em até 5 vezes
+c) Caso a pessoa opte em alugar um apartamento com 2 quartos, será acrescentado
+R$ 200,00 na mensalidade
+d) Caso a pessoa opte em alugar uma casa com 2 quartos, será acrescentado R$
+250,00 na mensalidade
+e) Para incluir a vaga de garagem tanto para casas quanto para apartamentos o valor
+acrescentado é de R$ 300,00
+f) No caso do Estudio pode ser adicionado vagas de estacionamento no valor de R$
+250,00 com 2 (duas) vagas, podendo acrescentar mais vagas no valor de R$ 60,00
+cada
+g) A empresa R.M oferece um desconto de 5% (cinco por cento) no valor do aluguel
+de apartamentos para pessoas que não possuem crianças.
+h) No final a aplicação deve apresentar o valor do aluguel mensal orçado, contendo o
+valor do contrato que pode ser parcelado em até 5 vezes
+i) Será permitido a geração de um arquivo “.csv” com as 12 parcelas do orçamento
