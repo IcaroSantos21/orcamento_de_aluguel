@@ -31,7 +31,7 @@ class Orcamento():
                 valor_base *= 0.95
             return valor_base
         elif self.tipo_imovel == 'casa':
-            valor_base = self.VALOR_CASA * self.quantidade_quartos
+            valor_base = self.VALOR_CASA
             if self.quantidade_quartos > 1:
                 valor_base = self.VALOR_CASA + (self.VALOR_QUARTO_CASA * (self.quantidade_quartos - 1))
             if self.garagem >= 1:
@@ -43,7 +43,7 @@ class Orcamento():
             elif self.vagas_estacionamento <= 2:
                 valor_base = self.VALOR_ESTUDIO + self.VALOR_ESTACIONAMENTO
             else:
-                valor_base = self.VALOR_ESTUDIO + self.VALOR_ESTACIONAMENTO + (65.00 * (self.vagas_estacionamento - 2))
+                valor_base = self.VALOR_ESTUDIO + self.VALOR_ESTACIONAMENTO + (60.00 * (self.vagas_estacionamento - 2))
             return valor_base
         else:
             raise ValueError('Tipo de Imóvel inválido')
